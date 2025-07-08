@@ -1,0 +1,14 @@
+/* selector {
+  property: value;
+} */
+
+h1 {
+  color: blue;
+  font-size: 80px;
+}
+
+p {
+  color: gray;
+  font-size: 20px;
+  width: 200px;
+}
