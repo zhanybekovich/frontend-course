@@ -1,14 +1,63 @@
-/* selector {
-  property: value;
-} */
+/* Selectors */
 
+/* Universal Selector */
+* {
+  background-color: aquamarine;
+}
+
+/* Type Selector */
 h1 {
-  color: blue;
-  font-size: 80px;
+  background-color: blue;
 }
 
 p {
-  color: gray;
-  font-size: 20px;
-  width: 200px;
+  background-color: aqua;
 }
+
+/* Class Selector */
+.my-title {
+  background-color: gold;
+}
+
+/* Id Selector */
+#my-paragraph {
+  background-color: indianred;
+}
+
+/* Attribute Selector */
+[href] {
+  background-color: black;
+}
+
+[href="https://google.com"]
+{
+  background-color: violet;
+}
+
+/* Combinator Selector */
+div,
+p {
+  background-color: green;
+}
+
+/* Child Selector */
+div > p {
+  background-color: red;
+}
+
+/* Descendant Selector */
+div p {
+  background-color: yellow;
+}
+
+.box p {
+  background-color: azure;
+}
+
+/* Adjacent Selector */
+h1 + p {
+  background-color: tomato;
+}
+
+/* Learn and practice CSS Selectors */
+/* https://flukeout.github.io/ */
