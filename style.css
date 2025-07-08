@@ -1,14 +1,32 @@
-/* Visited */
-a:visited {
-  color: #c7c7c7;
-}
-
-/* Hover */
-a:hover {
+/* [0, 0, 0, 0] */
+* {
   background-color: lime;
 }
 
-/* Active */
-a:active {
-  color: red;
+/* [0, 0, 0, 1] */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+}
+
+/* [0, 0, 1, 0] */
+.test {
+  background-color: blue;
+}
+
+/* [0, 1, 0, 0] */
+#test {
+  background-color: yellow;
+}
+
+/* [0, 0, 1, 1] */
+div.box {
+  background-color: fuchsia;
+}
+
+/* @important */
+div.box {
+  background-color: blueviolet !important;
 }
