@@ -1,63 +1,14 @@
-/* Selectors */
-
-/* Universal Selector */
-* {
-  background-color: aquamarine;
+/* Visited */
+a:visited {
+  color: #c7c7c7;
 }
 
-/* Type Selector */
-h1 {
-  background-color: blue;
+/* Hover */
+a:hover {
+  background-color: lime;
 }
 
-p {
-  background-color: aqua;
+/* Active */
+a:active {
+  color: red;
 }
-
-/* Class Selector */
-.my-title {
-  background-color: gold;
-}
-
-/* Id Selector */
-#my-paragraph {
-  background-color: indianred;
-}
-
-/* Attribute Selector */
-[href] {
-  background-color: black;
-}
-
-[href="https://google.com"]
-{
-  background-color: violet;
-}
-
-/* Combinator Selector */
-div,
-p {
-  background-color: green;
-}
-
-/* Child Selector */
-div > p {
-  background-color: red;
-}
-
-/* Descendant Selector */
-div p {
-  background-color: yellow;
-}
-
-.box p {
-  background-color: azure;
-}
-
-/* Adjacent Selector */
-h1 + p {
-  background-color: tomato;
-}
-
-/* Learn and practice CSS Selectors */
-/* https://flukeout.github.io/ */
